@@ -1,0 +1,4 @@
+jupyter nbconvert --to html_toc FILE.ipynb 
+jupyter nbconvert --to html --EmbedImagesPreprocessor.embed_images=True FinalProject.ipynb
+
+jupyter nbconvert --to html_embed --template toc2 FinalProject.ipynb
